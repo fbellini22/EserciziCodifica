@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "esercizio6.dtd">
+<!-- includere all’interno di un documento XML la
+dichiarazione del tipo, definire internamente gli elementi e
+gli attributi e validare.
+inserire nel prologo di un documento XML la dichiarazione
+del tipo di documento e validare.-->
+
+<TEI>
+    <header type="intestazione">
+    Intestazione.
+    </header>
+
+    <facsimile source="facsimile">
+        Facsimile.
+    </facsimile>
+
+    <text id="testo">
+        <seg>ciao.</seg>
+    </text>
+</TEI>
